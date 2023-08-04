@@ -1,0 +1,3 @@
+[submodule "Shaku"]
+	path = Shaku
+	url = https://github.com/RonenNess/Shaku.git
