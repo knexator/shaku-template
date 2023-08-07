@@ -1,3 +1,4 @@
 [submodule "Shaku"]
 	path = Shaku
-	url = https://github.com/RonenNess/Shaku.git
+	url = https://github.com/knexator/Shaku.git
+	branch = typescript

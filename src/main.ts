@@ -1,4 +1,5 @@
-import { default as Shaku } from "shaku"
+import Shaku from "shaku"
+
 await Shaku.init();
 document.body.appendChild(Shaku.gfx.canvas);
 Shaku.gfx.setResolution(800, 600, true);
