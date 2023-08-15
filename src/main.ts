@@ -35,11 +35,15 @@ let player_position = new Vector2(Shaku.gfx!.canvas.width / 2, Shaku.gfx!.canvas
 function step() {
 	Shaku.startFrame();
 
+	console.log(
+		Shaku.input!.down("mouse_left"),
+		Shaku.input!.down(Shaku.input!.MouseButtons.RIGHT),
+	);
+
 	// LOGIC
 	let move_dir = new Vector2(0, 0);
 	// TODO: showcase a more concise way of doing this
 	if (Shaku.input!.down([KeyboardKeys.W, KeyboardKeys.UP])) {
-		console.log("up")
 		move_dir.y -= 1;
 	}
 	if (Shaku.input!.down([KeyboardKeys.S, KeyboardKeys.DOWN])) {
